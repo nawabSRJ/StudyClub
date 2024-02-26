@@ -1,0 +1,263 @@
+
+#navbar{
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 1.7vw;
+    display: inline-block;
+    
+}
+
+#navbar a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+#navbar .logo{
+    margin-right: 780px;
+    margin-left: 30px;
+}
+main{
+    /* background-color: green; */
+    background-color: transparent;
+    /* width: fit-content; */
+    margin-top: 120px;
+    margin-bottom: 0px;
+    /* margin : 120px 0px 0px 0px; */
+    
+}
+
+.name{
+    font-family: 'Lemonada', cursive;
+    font-size: 2vw;
+    /* background-color: pink; */
+    background-color: transparent;
+    display: inline-block;
+    border: 0px;
+    
+    
+}
+.name h1{
+    margin-bottom: 0px;
+}
+.name p{
+    margin-top: 0px;
+    font-size: 1.4vw;
+}
+.pics{
+    margin-top: 10px;
+    padding: 0px 2px 0px 2px;
+}
+.pics img{
+    display: inline-block;
+    /* margin-right: 500px; */
+    margin: auto;
+    width: 180px;
+    height: 180px;
+    
+}
+#doggo{
+    margin-right: 150px;
+    
+}
+#girl{
+    margin-left: 842px;
+}
+/* --------------------- Second Page --------------------- */
+#contact {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-item {
+    
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.contact-item:hover {
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-item:hover .details {
+    display: inline-block;
+}
+.details {
+    display: none;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.about{
+    padding: 0px 4px 0px 4px;
+    width:100%;
+    overflow:auto;
+    transition: 0.4s;
+    scroll-behavior: smooth;
+}
+section h2{
+    font-family: 'Alata', sans-serif;
+    font-size : 2.4vw;
+}
+.about div{
+    /* width : 45%; */
+    display: inline-block;
+    margin-inline-start: 95px;
+}
+.my-info{
+    width : 48%;
+    padding : 0px;
+    
+    height: fit-content;
+    font-size:1.9vw;
+    /* margin-left: 19px; */
+    color: black;
+    /* background-color: pink; */
+    background-color: transparent;
+
+    /* border: 2px solid black; */
+}
+/* .my-info p{
+    padding: 14px;
+} */
+.info-pic{
+    text-align: left;
+    height: fit-content;
+    width: 24%;
+    font-size: 1.4vw;
+    /* background-color: green; */
+    background-color: transparent;
+}
+
+.container {
+    width:100%;
+    overflow:auto;
+  }
+.container div {
+    width:32%;
+    display: inline-block;
+    margin-inline-start: 5px; /* increases the width b/w the block */
+    padding: 2px;
+    
+  }
+.container .phone{
+    background-color: aquamarine;
+}
+.container .mail{
+    background-color: red;
+}
+.container .insta{
+    background-color: darkorchid;
+}
+
+.register{
+    width : 100%;
+    background-color: aquamarine;
+}
+
+.form-container{
+    text-align: left;
+    margin: auto;
+    width: 700px;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.login-container{
+    text-align: left;
+    margin: auto;
+    width: 700px;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+input[type=text] , select{
+    width: 100%;
+    padding: 12px 20px;     /* to add some space inside of text box input */
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email] , select{
+    width: 100%;
+    padding: 12px 20px;     /* to add some space inside of text box input */
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] , button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=button] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+
+/* .form-container{
+    background-color: aliceblue;
+    display: inline-block;
+    width : 40%;
+    text-align: left;
+    border: 2px solid black;
+    padding: 20px;
+} */
+label{
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+}
+/* input{
+    width : 300px;
+    height: 26px;
+    margin: 3px;
+    border: none;
+    background-color: white;
+    color: black;    
+    border: 1px solid black;
+    font-size: 18px;
+} */
+select{
+    padding: 0;
+    font-size: 14px;
+    width : 90px;
+    height: 35px;
+}
+

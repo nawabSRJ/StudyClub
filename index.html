@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Alatsi&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"></script>
+    <script src="register.js" type="module"></script>
+    <script src="login.js" type="module"></script>
+    
+    <title>My Study Lab</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="logo" style="display: inline-block;"> <a href="">Logo</a> </div>
+        
+        <a href="#About">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#register">Register</a>
+    </div>
+
+    <main>
+        <center>
+        <div class="name" >
+            <h1>MyStudyClub</h1>
+            <p style="text-align: center;">Every Student’s favorite academic partner.
+                <br>A complete end-to-end academic management</p>
+        </div>
+    </center>
+    <br>
+    <div class="pics" style="background-color: transparent;">
+        <img src="./assets/first_pic.png" alt="" id="doggos">
+        <img src="./assets/second_pic.png" alt="" id="girl">
+        
+    </div>
+    </main>
+
+    <section id="About" class="about" style="background-color: transparent;">
+        <center><h2>About</h2></center>
+        <div class="my-info">
+             Introducing MyStudyClub, your ultimate platform for talent showcase and skill validation. MyStudyClub is revolutionizing the way individuals across diverse fields demonstrate their capabilities, regardless of traditional academic pathways.
+
+            At MyStudyClub, we understand that the future of education and career advancement lies beyond conventional degrees. That's why we've created a dynamic space where students and professionals alike can build and showcase their portfolios, highlighting their unique talents, projects, and achievements.
+            
+            Gone are the days of relying solely on academic credentials. With MyStudyClub, you can break free from the constraints of traditional education and stand out in a competitive job market
+        </div>
+        <div class="info-pic">
+            <img src="./assets/hi_srj.png" alt="Hello!!" style="width: 360px; height: 360px;">
+        </div>
+    </section>
+<br>
+<section id="contact">
+    <center><h2>Contact</h2></center>
+    <div class="container">
+        <div class="contact-item">
+            <button>WhatsApp</button>
+            <div class="details">
+                <p>WhatsApp Number: +91 88400 59812</p>
+            </div>
+        </div>
+        <div class="contact-item">
+            <button>Mail Us</button>
+            <div class="details">
+                <p>Email: srajan.saxena7@gmail.com</p>
+            </div>
+        </div>
+        <div class="contact-item">
+            <button>Instagram</button>
+            <div class="details">
+                <p>Instagram: @mystudyclub.in</p>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+    <section id="register">
+        <center><h2>Register</h2></center>
+        <center><div class="form-container">
+            <form action="" id="MainForm">
+                <label for="Name">Name : </label> <br>
+                <input type="text" name="Name" id="Name" placeholder="Full Name"><br>
+
+                <label for="Email_id">Email : </label> <br>
+                <input type="email" name="Email_id" id="Email_id" placeholder="Enter Email"><br>
+
+                <label for="password">Password : </label> <br>
+                <input type="password" name="password" id="password" placeholder="Enter Password"><br>
+                
+                <label for="dob">Date of Birth :</label>
+                <input type="date" name="dob" id="dob" placeholder="select age">
+                
+
+
+                <label for="gender" >Gender :</label>
+                <select name="gender" id="gender" size="1">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit" id="register-btn" style="font-size: 20px;">
+              
+            </form>
+        </div></center>
+    </section>
+    <br><br>
+    <section id="login">
+        <center><h2>Login</h2></center>
+        <center><div class="login-container">
+            <form action="" id="LoginForm">
+           
+                <label for="Email_id">Email : </label> <br>
+                <input type="email" name="Email_id" id="login-email" placeholder="Enter Email"><br>
+
+                <label for="password">Password : </label> <br>
+                <input type="password" name="password" id="login-password" placeholder="Enter Password"><br>
+
+                <br><br>
+                <button type="submit" id="login-btn" style="font-size: 20px;">Login</button>
+              
+            </form>
+        </div></center>
+    </section>
+    <br><br><br><br>
+</body>
+</html>

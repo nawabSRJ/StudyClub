@@ -1,0 +1,13 @@
+Name id -> Name
+EmailId id -> Email_id
+Password id -> password
+Date of Birth id -> dob
+Gender id -> gender
+Submit id -> register-btn
+Form id -> MainForm
+
+For Login
+form id -> LoginForm
+Email id -> login-email
+Password id -> login-password
+Sign In Button id -> login-btn
